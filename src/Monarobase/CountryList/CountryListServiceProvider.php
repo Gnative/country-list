@@ -40,7 +40,6 @@ class CountryListServiceProvider extends ServiceProvider {
 	public function register()
 	{
 		$this->app->bind('countrylist', function ($app) {
-		{
 			return new CountryList;
 		});
 	}
